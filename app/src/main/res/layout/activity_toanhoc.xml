@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".monhoc.ToanhocActivity">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView"
+        android:layout_width="187dp"
+        android:layout_height="152dp"
+        android:src="@drawable/montoan" />
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnontap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ôn tập" />
+
+        <Button
+            android:id="@+id/btnchondethi"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài test" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnthemcauhoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm câu hỏi" />
+
+        <Button
+            android:id="@+id/btnxemdiem"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem điểm" />
+    </TableRow>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Luật chơi"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Thích chơi sao chơi ok"/>
+
+</TableLayout>

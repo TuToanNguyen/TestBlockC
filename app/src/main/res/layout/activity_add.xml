@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#e21010"
+        android:text="THÊM CÂU HỎI"
+        android:gravity="center"/>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+        <TextView
+            android:text="ID:"/>
+
+
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/nhapid"
+            android:layout_width="272dp"
+            android:hint=" id câu hỏi" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Câu hỏi:"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nhapcauhoi"
+            android:hint="nhập câu hỏi của bạn"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="A:"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nhapA"
+            android:hint="nhập đáp án A"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="B:"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nhapB"
+            android:hint="nhập đáp án B"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="C:"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nhapC"
+            android:hint="nhập đáp án C"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="D:"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nhapD"
+            android:hint="nhập đáp án D"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/selection"
+            android:text="Đáp án đúng:"/>
+        <Spinner
+            android:id="@+id/dapandung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp">
+        <TextView
+            android:text="Bộ đề:"/>
+        <Spinner
+            android:id="@+id/sode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp">
+        <TextView
+            android:text="Môn:"/>
+
+        <Spinner
+            android:id="@+id/tenmon"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="#28e27f"
+        android:id="@+id/btnLuu"
+        android:text="LƯU" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="#c490d9"
+        android:id="@+id/btnThoat"
+        android:text="THOÁT" />
+
+
+
+
+</TableLayout>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen2"
+    tools:context=".monhoc.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#0f8e13"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="     (Ứng dụng trắc nghiệm khối C)"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/toan"
+            android:layout_width="124dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button1"
+            android:text="NGỮ VĂN" />
+
+        <Button
+            android:layout_marginTop="6dp"
+            android:textColor="#FFF"
+            android:id="@+id/vatly"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button"
+            android:text="LỊCH SỬ" />
+
+        <Button
+            android:layout_marginTop="6dp"
+            android:id="@+id/hoahoc"
+            android:layout_width="124dp"
+            android:layout_height="34dp"
+            android:background="@drawable/button1"
+            android:text="ĐỊA LÝ" />
+
+        <Button
+            android:layout_marginTop="6dp"
+            android:textColor="#FFF"
+            android:id="@+id/themcauhoi"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button"
+            android:text="THÊM CÂU HỎI" />
+
+        <Button
+            android:layout_marginTop="6dp"
+            android:id="@+id/timkiem"
+            android:layout_width="124dp"
+            android:layout_height="34dp"
+            android:background="@drawable/button1"
+            android:text="TÌM KIẾM" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

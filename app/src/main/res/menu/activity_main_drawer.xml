@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Trang chủ" />
+    </group>
+
+    <item android:title="Trợ giúp">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/search"
+                    android:icon="@drawable/seach"
+                    android:title="Tìm kiếm câu hỏi" />
+                <item
+                    android:id="@+id/huongdan"
+                    android:icon="@drawable/book"
+                    android:title="Hướng dẫn" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Danh sách môn học">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/montoan"
+                    android:icon="@drawable/nguvan"
+                    android:title="Ngữ Văn" />
+                <item
+                    android:id="@+id/monly"
+                    android:icon="@drawable/lichsu"
+                    android:title="Lịch Sử" />
+                <item
+                    android:id="@+id/monhoa"
+                    android:icon="@drawable/dialy"
+                    android:title="Địa Lý" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Câu hỏi của bạn">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/themquestion"
+                    android:icon="@drawable/add"
+                    android:title="Thêm câu hỏi" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Danh sách điểm">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/score"
+                    android:icon="@drawable/xemdiem"
+                    android:title="Danh sách điểm" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Thông tin">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/chiase"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Chia sẻ" />
+                <item
+                    android:id="@+id/phanmem"
+                    android:icon="@drawable/information"
+                    android:title="Phần mềm" />
+                <item
+                    android:id="@+id/nhaphattrien"
+                    android:icon="@drawable/call"
+                    android:title="Nhà phát triển" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="138dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#2251de"
+        android:text="THÊM CÂU HỎI" />
+    <Button
+        android:background="#2251de"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="170dp"
+        android:id="@+id/btnHuy"
+        android:layout_width="138dp"
+        android:layout_alignLeft="@id/btnThem"
+        android:layout_height="36dp"
+        android:text="HỦY" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp" />
+</RelativeLayout>

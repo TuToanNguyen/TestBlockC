@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:textColor="#1f35f9"
+            android:text="Câu:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#1f35f9"
+            android:id="@+id/txtcau"
+            android:text="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Tiêu đề: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txttieude"
+            android:text="tieu de"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+        <TextView
+            android:text="Nội dung:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/txtnoidung"
+            android:text="noi dung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+</TableLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".monhoc.ToanHocFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/vanhoc" />
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnontap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ôn tập" />
+
+        <Button
+            android:id="@+id/btnchondethi"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Bài test" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <!--<Button-->
+            <!--android:id="@+id/btnthemcauhoi"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Thêm câu hỏi" />-->
+
+        <Button
+            android:id="@+id/btnxemdiem"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem điểm" />
+    </TableRow>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#e90303"
+        android:textSize="20dp"
+        android:text="Hướng dẫn"/>
+    <TextView
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:textSize="15dp"
+    android:text="Ôn tập: ôn tập lại kiến thức trước khi làm bài test"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:text="Bài test: Giúp bạn kiểm tra lại những kiến thức đã học:"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:text="  Khi bắt đầu làm bài thời gian sẽ đếm ngược (mặc định là 10 phút) "/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:text="  Trong quá trình làm bài bạn có thể kiểm tra đáp án và những câu hỏi đã và chưa làm"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:text="  Kết thúc: bạn có thể xem điểm và lưu điểm vào úng dụng"/>
+</TableLayout>
