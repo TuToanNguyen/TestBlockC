@@ -1,0 +1,6 @@
+﻿Ứng dụng trắc nghiệm khối C _ TestBlock C
+----------
+Hướng dẫn cài đặt:
+B1: Tải file app-debug.apk về điện thoại Android
+B2: Mở file vừa tải và tiến hành cài đặt bình thường.
+-----:)
